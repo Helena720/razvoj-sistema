@@ -1,4 +1,9 @@
 #include <stdio.h>
+
+void ispisi(){
+	printf("Rezultat je: %d \n", c);
+	return 0;
+}
  
 int main() {
     int a = 3;
@@ -9,6 +14,5 @@ int main() {
 		c = a - b;
 	else 
 		c = b - a;
-	printf("Rezultat je: %d \n", c);
-	return 0;
+		return 0;
 }
