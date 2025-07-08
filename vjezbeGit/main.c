@@ -1,18 +1,27 @@
 #include <stdio.h>
 
+
 void ispisi(){
 	printf("Rezultat je: %d \n", c);
 	return 0;
+
+int Razlika(int x, int y) {
+    if (x > y)
+        return x - y;
+    else
+        return y - x;
+
 }
  
 int main() {
     int a = 3;
 	int b = 8;
 	int c;
- 
-	if (a > b)
-		c = a - b;
-	else 
-		c = b - a;
-		return 0;
+	c=Razlika(a,b);
+ 	
+	ispisi();
+	
+	printf("Rezultat je: %d \n", c);
+	return 0;
+>>>>>>> branch1
 }
