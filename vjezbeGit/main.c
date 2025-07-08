@@ -1,14 +1,18 @@
 #include <stdio.h>
+int Razlika(int x, int y) {
+    if (x > y)
+        return x - y;
+    else
+        return y - x;
+}
  
 int main() {
     int a = 3;
 	int b = 8;
 	int c;
+	c=razlika(a,b);
  
-	if (a > b)
-		c = a - b;
-	else 
-		c = b - a;
+	
 	printf("Rezultat je: %d \n", c);
 	return 0;
 }
